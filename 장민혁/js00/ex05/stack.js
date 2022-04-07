@@ -28,14 +28,13 @@ function stackPop(stack){
   return stack.arr[stack.top--]
 }
 
-let stack = stackCreate()
+let stac = stackCreate()
 
-console.log(stackEmpty(stack));
-stackPush(stack, 0)
-stackPush(stack, 1)
-stackPush(stack, 2)
-console.log(stackPeek(stack));
-console.log(stackPop(stack));
-console.log(stackPop(stack));
-console.log(stackPop(stack));
-console.log(stackPop(stack));
+console.log(stackEmpty(stac));
+stackPush(stac, 0)
+stackPush(stac, 1)
+stackPush(stac, 2)
+console.log(stackPeek(stac));
+console.log(stackPop(stac));
+console.log(stackPop(stac));
+console.log(stackPop(stac));
